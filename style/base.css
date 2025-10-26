@@ -24,8 +24,14 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #fff;
     min-height: 150px;
+}
+.header img {
+    height: auto;
+    width: 100%;
+    opacity: 0.4;
+    z-index: -1;
 }
 .content {
     background-color: white;
@@ -35,4 +41,14 @@ body {
 .footer {
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+}
+.clinica {
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    text-align: center;
+    z-index: 1;
 }
