@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/base.css">
-    <title>Clinica Medica O Amanhã</title>
+    <title>Clínica Médica O Amanhã</title>
 </head>
 <body>
     <div class="wrapper">
@@ -13,6 +13,13 @@
             <!-- Aqui vai o seu menu -->
             <ul >
                 <li><a href="#header">Página Principal</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <ol>
+                <li><a href="./pages/page_1.html">Clinica geral</a></li>
+                <li><a href="./pages/page_2.html">Psicologia</a></li>
+                <li><a href="./pages/page_3.html">Pediatria</a></li>
+                <li><a href="./pages/page_4.html">Oftalmologia</a></li>
+                </ol>
                 <li><a href="#sobre">Sobre a Clínica</a></li>
                 <li><a href="#horario">Horário de Atendimento</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -21,9 +28,9 @@
 
         <div class="main">
             <div class="header">
-                <img src="./imagens/clinica-medica.jpg" alt="Clinica Medica O Amanhã">
+                <img src="./imagens/clinica-medica.jpg" alt="Clínica Médica O Amanhã">
                 <div class="clinica">
-                    <p>Clinica Medica O Amanhã</p>
+                    <p>Clínica Médica O Amanhã</p>
                     <p class="logo">Seu bem-estar é a nossa prioridade.</p>
                 </div>
                 <!-- Aqui vai o seu header -->
@@ -34,20 +41,53 @@
                 <div id="sobre">
                     <h2>Bem-vindo à Clínica Médica O Amanhã</h2>
                     <p>Na Clínica Médica O Amanhã, oferecemos cuidados de saúde de alta qualidade para você e sua família. Nossa equipe de profissionais dedicados está aqui para garantir que você receba o melhor atendimento possível.</p>
-                    <h3>Nossos Serviços</h3>
-                    <ul class="service">
-                        <li>Consultas médicas gerais</li>
-                        <li>Exames laboratoriais</li>
-                        <li>Vacinação</li>
-                        <li>Acompanhamento de doenças crônicas</li>
-                    </ul>
-                    
+                    <h3><i>Nossos Serviços</i></h3>
+            <table border="1" align="center" cellpadding="2" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th title="Serviços">Serviços</th>
+                        <th title="Semana">Segunda a Sexta</th>
+                        <th title="Finais de Semana">Sábado</th>
+                        <th title="Feriados">Feriados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Clinica geral</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Psicologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                    </tr>
+                    <tr>
+                        <td>Pediatria</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td> - </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>Oftalmologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td> - </td>
+                    </tr>
+                </tfoot>
+            </table>
                 </div>
                 <!-- Aqui vai o seu conteúdo -->
             </div>
     
             <div class="footer">
-                <a href="https://maps.app.goo.gl/1HQ252QRx6mfqN9s9" target="_blank" class="btn btn-primary btn-sm">Como Chegar</a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d926.5181373522565!2d-44.30809429578829!3d-21.73871291903527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1761670728286!5m2!1spt-PT!2sbr" width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <a href="https://maps.app.goo.gl/NsWL5SsLC7n8Xt7K9" target="_blank" class="btn btn-primary btn-sm">Como Chegar</a>
                 Footer
                 <div id="horario">
                 <h3>Horário de Atendimento</h3>
@@ -63,8 +103,6 @@
             </div>
         </div>
     </div>
-    <a href="https://maps.app.goo.gl/1HQ252QRx6mfqN9s9" target="_blank" class="btn btn-primary btn-sm">Como Chegar</a>
-    
 </body>
 </html>
 
