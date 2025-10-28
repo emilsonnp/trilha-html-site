@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-    width: 1000px;
+    width: 1200px;
     display: flex;
     margin: 0 auto;
     /* background-color: aquamarine; */
@@ -62,7 +62,7 @@ body {
     
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgba(147, 136, 185, 0.977);
     min-height: 150px;
 }
 .clinica p {
