@@ -21,25 +21,25 @@ body {
     width: 85%;
 }
 .menu ul{
+    position: fixed; 
     list-style-type: none;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
-    width: 100%;
+    width: 17.2%;
     height: 87.5%;
     background-color: rgb(201, 218, 218);
-    padding: 10px;
-    /* display: inline-block; */
+    padding: 5px;
+    display: block;
     text-align: left;
-
 }
 .menu li{
     padding: 8px 0;
     border-bottom: 1px solid #bbb;
 }
 .menu img {
-    height: 150px;
-    width: 150px;
-    margin-bottom: -10px;    
+    height: 100px;
+    width: 140px;
+    margin-bottom: -4px;    
 }
 .menu li a:hover {
   background-color: #ddd;
